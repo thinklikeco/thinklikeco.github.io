@@ -156,7 +156,7 @@ hr {
 #posts ul li p {
 	font: normal 300 1.2em 'rooney-web', sans-serif;
 	color:#555;
-	line-height:1.7em;
+	line-height:1.6em;
 	margin: 1em 0 0;
 	letter-spacing: -0.01em;
 }
@@ -220,7 +220,7 @@ hr {
 #social-inbox-content a {
 	color: #b3c0c9;
 	border-bottom: 1px dotted;
-	padding-bottom: 0.2em;
+	padding-bottom: 0.1em;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -318,7 +318,7 @@ hr {
 #footnote a {
 	color: #777;
 	border-bottom: 1px dotted;
-	padding-bottom: 0.2em;
+	padding-bottom: 0.1em;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -414,7 +414,6 @@ hr {
 	padding-bottom: 2em;
 	margin-bottom: 3em;
 	border-bottom: 1px solid #EEE;
-	letter-spacing: 0.01em;
 }
 
 #article p {
@@ -433,7 +432,7 @@ hr {
 	color: #222;
 	text-decoration: none;
 	border-bottom: 1px dotted #222;
-	padding-bottom: 0.2em;
+	padding-bottom: 0.1em;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -470,7 +469,7 @@ hr {
 #comment a {
 	color: #555;
 	border-bottom: 1px dotted;
-	padding-bottom: 0.2em;
+	padding-bottom: 0.1em;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -497,6 +496,10 @@ hr {
 	font: normal 400 0.9em 'jaf-facitweb', sans-serif;
 	color:#919191;
 	margin-bottom: 2em;
+
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	font-smoothing: subpixel-antialiased;
 }
 
 #next-article-content a {
@@ -517,7 +520,7 @@ hr {
 #next-article-content p {
 	font: normal 300 1.2em 'rooney-web', sans-serif;
 	color:#C5C5C5;
-	line-height:1.7em;
+	line-height:1.6em;
 	margin-top: 1em;
 	letter-spacing: -0.01em;
 }
