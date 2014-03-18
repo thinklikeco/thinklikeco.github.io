@@ -153,6 +153,7 @@ hr {
 	color:#555;
 	line-height:1.7em;
 	margin: 1em 0 0;
+	letter-spacing: -0.01em;
 }
 
 #chill {
@@ -178,6 +179,7 @@ hr {
 	line-height:1.8em;
 	text-align: left;
 	margin: 2em 0;
+	letter-spacing: -0.01em;
 }
 
 #chill-content img {
@@ -209,6 +211,7 @@ hr {
 	line-height:1.8em;
 	text-align: left;
 	margin: 2em 0 4em;
+	letter-spacing: -0.01em;
 }
 
 #social-inbox-content a {
@@ -305,6 +308,7 @@ hr {
 	font: normal 400 1em 'jaf-facitweb', sans-serif;
 	color: #777;
 	line-height: 1.8em;
+	letter-spacing: -0.01em;
 }
 
 #footnote a {
@@ -412,6 +416,7 @@ hr {
 	color:#2A2A2A;
 	line-height:1.7em;
 	margin:1em 0 2em 0;
+	letter-spacing: -0.01em;
 }
 
 #article p strong {
