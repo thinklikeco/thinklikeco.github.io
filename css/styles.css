@@ -385,10 +385,10 @@ hr {
 }
 
 #article h3 {
-	font: normal 700 2em 'jaf-facitweb', sans-serif;
+	font: normal 700 1.8em 'jaf-facitweb', sans-serif;
 	color:#2A2A2A;
 	line-height:1.3em;
-	margin:2em 0 1em 0;
+	margin-top: 2em;
 }
 
 .post-meta {
