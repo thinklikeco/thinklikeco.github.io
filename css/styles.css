@@ -115,6 +115,7 @@ hr {
 	font: normal 400 1em 'jaf-facitweb', sans-serif;
 	color: #c8efe8;
 	margin-top: 1em;
+	letter-spacing: -0.01em;
 }
 
 #posts ul {
