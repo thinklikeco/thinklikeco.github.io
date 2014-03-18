@@ -35,12 +35,6 @@ img {
 		margin:3em auto;
 		padding:0 1em;
 	}
-	#header-content h1 {
-		font: normal 700 4em 'jaf-facitweb', sans-serif;
-		text-transform: uppercase;
-		color: #FFF;
-		line-height: 1em;
-	}
 	#article h1 {
 		font: normal 700 2em 'jaf-facitweb', sans-serif;
 		color:#2A2A2A;
@@ -59,12 +53,6 @@ img {
 		margin:3em auto;
 		padding:0 2em;
 	}
-	#header-content h1 {
-		font: normal 700 5em 'jaf-facitweb', sans-serif;
-		text-transform: uppercase;
-		color: #FFF;
-		line-height: 1em;
-	}
 	#article h1 {
 		font: normal 700 3em 'jaf-facitweb', sans-serif;
 		color:#2A2A2A;
@@ -82,12 +70,6 @@ img {
 	#container {
 		margin:4em auto;
 		padding:0 2em;
-	}
-	#header-content h1 {
-		font: normal 700 6em 'jaf-facitweb', sans-serif;
-		text-transform: uppercase;
-		color: #FFF;
-		line-height: 1em;
 	}
 	#article h1 {
 		font: normal 700 4em 'jaf-facitweb', sans-serif;
@@ -119,14 +101,16 @@ hr {
 	text-align: center;
 }
 
-#header-content h1 span {
-	font-size: 0.9em;
-}
+#header-content h1 {
+	font: normal 700 2em 'jaf-facitweb', sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	}
 
-#header-content h4 {
+#header-content p {
 	font: normal 400 1.2em 'jaf-facitweb', sans-serif;
 	color: #c8efe8;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 #posts ul {
