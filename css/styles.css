@@ -469,7 +469,7 @@ hr {
 
 #comment a {
 	color: #555;
-	border-bottom: 1px dotted #555;
+	border-bottom: 1px dotted;
 	padding-bottom: 0.2em;
 
 	-webkit-transition: all 0.12s ease;
@@ -480,7 +480,7 @@ hr {
 #comment a:hover,
 #comment a:focus {
 	color: #5ED1BD;
-	border-bottom: 1px dotted #5ED1BD;
+	border-bottom: 1px dotted;
 }
 
 #next-article {
