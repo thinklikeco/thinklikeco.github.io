@@ -458,6 +458,7 @@ hr {
 	border-top: 1px solid #EEE;
 	padding: 2em 0 0;
 	margin: 4em 0 1em;
+	letter-spacing: -0.01em;
 }
 
 #comment a {
@@ -511,6 +512,7 @@ hr {
 	color:#C5C5C5;
 	line-height:1.7em;
 	margin-top: 1em;
+	letter-spacing: -0.01em;
 }
 
 
