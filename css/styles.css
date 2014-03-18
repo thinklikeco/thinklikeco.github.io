@@ -18,6 +18,10 @@ body {
 	color: #2A2A2A;
 	font: normal 100% Arial, Helvetica, sans-serif;
 	border-top: 5px solid #5ED1BD;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 img {
