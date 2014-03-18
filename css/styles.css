@@ -91,7 +91,7 @@ hr {
 
 #header {
 	background-color: #5ED1BD;
-	padding: 3em 2em;
+	padding: 2em;
 	border-bottom: 5px solid #5ED1BD;
 }
 
@@ -108,7 +108,7 @@ hr {
 	}
 
 #header-content p {
-	font: normal 400 1.2em 'jaf-facitweb', sans-serif;
+	font: normal 400 1em 'jaf-facitweb', sans-serif;
 	color: #c8efe8;
 	margin-top: 1em;
 }
