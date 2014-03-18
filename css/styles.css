@@ -117,9 +117,9 @@ hr {
 	margin-top: 1em;
 	letter-spacing: -0.01em;
 
-	-webkit-font-smoothing: none;
-	-moz-font-smoothing: none;
-	font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	font-smoothing: subpixel-antialiased;
 }
 
 #posts ul {
