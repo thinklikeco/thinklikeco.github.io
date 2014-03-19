@@ -32,9 +32,6 @@ img {
 	body {
 		font-size:80%;
 	}
-	#bottom-nav-full {
-		display:none;
-	}
 	#container {
 		margin:3em auto;
 		padding:0 1em;
@@ -50,9 +47,6 @@ img {
 	body {
 		font-size:90%;
 	}
-	#bottom-nav-full {
-		display:none;
-	}
 	#container {
 		margin:3em auto;
 		padding:0 2em;
@@ -67,9 +61,6 @@ img {
 @media screen and (min-width: 520px) {
 	body {
 		font-size:100%;
-	}
-	#bottom-nav-simple {
-		display:none;
 	}
 	#container {
 		margin:4em auto;
@@ -529,12 +520,12 @@ hr {
 	background-color: #5ED1BD;
 	text-align: center;
 	color: #FFF;
-	padding: 4em 2em;
 }
 
 #error404-content {
 	max-width: 640px;
 	margin: 0 auto;
+	padding: 4em 1em;
 }
 
 #error404 h1 {
