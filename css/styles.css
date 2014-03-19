@@ -532,6 +532,11 @@ hr {
 	padding: 4em 2em;
 }
 
+#error404-content {
+	max-width: 640px;
+	margin: 0 auto;
+}
+
 #error404 h1 {
 	font: normal 700 4em 'jaf-facitweb', sans-serif;
 
@@ -542,7 +547,7 @@ hr {
 
 #error404 p {
 	font: normal 400 1.2em 'jaf-facitweb', sans-serif;
-	line-height: 1.8em;
+	line-height: 1.5em;
 	letter-spacing: -0.01em;
 	margin-top: 2em;
 
