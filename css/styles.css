@@ -73,14 +73,6 @@ img {
 	}
 }
 
-hr {
-	display: none;
-}
-
-#footer {
-	display: none;
-}
-
 
 /***************** Home Page *******************/
 
@@ -210,8 +202,7 @@ hr {
 
 #social-inbox-content a {
 	color: #b3c0c9;
-	border-bottom: 1px dotted;
-	padding-bottom: 0.1em;
+	text-decoration: underline;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -228,6 +219,7 @@ hr {
 	font: normal 400 1em Helvetica Neue, sans-serif;
 	color:#FFF;
 	border: 1px solid #FFF;
+	text-decoration: none;
 	
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
@@ -262,7 +254,7 @@ hr {
 #elsewhere ul li {
 	float:left;
 	font-size: 3.8em;
-	margin: 0 0.6em 0;
+	margin: 0 0.6em;
 	display:inline;
 }
 
@@ -308,8 +300,7 @@ hr {
 
 #footnote a {
 	color: #777;
-	border-bottom: 1px dotted;
-	padding-bottom: 0.1em;
+	text-decoration: underline;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -412,9 +403,7 @@ hr {
 
 #article p a {
 	color: #222;
-	text-decoration: none;
-	border-bottom: 1px dotted #222;
-	padding-bottom: 0.1em;
+	text-decoration: underline;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
@@ -450,8 +439,7 @@ hr {
 
 #comment a {
 	color: #555;
-	border-bottom: 1px dotted;
-	padding-bottom: 0.1em;
+	text-decoration: underline;
 
 	-webkit-transition: all 0.12s ease;
 	-moz-transition: all 0.12s ease;
