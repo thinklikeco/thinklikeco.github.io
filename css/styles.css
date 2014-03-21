@@ -398,15 +398,6 @@ hr {
 	margin-bottom:2em;
 }
 
-.synopsis {
-	font: normal 300 1em 'jaf-facitweb', sans-serif;
-	color: #666;
-	line-height: 1.7em;
-	padding-bottom: 2em;
-	margin-bottom: 3em;
-	border-bottom: 1px solid #EEE;
-}
-
 #article p {
 	font: normal 300 1.3em 'rooney-web', sans-serif;
 	color:#2A2A2A;
