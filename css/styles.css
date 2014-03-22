@@ -413,7 +413,6 @@ img {
 #article p a:hover,
 #article p a:focus {
 	color:#5ED1BD;
-	border-bottom: 1px dotted #5ED1BD;
 }
 
 #article ul {
@@ -449,7 +448,6 @@ img {
 #comment a:hover,
 #comment a:focus {
 	color: #5ED1BD;
-	border-bottom: 1px dotted;
 }
 
 #next-article {
