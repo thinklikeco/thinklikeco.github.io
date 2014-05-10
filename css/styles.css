@@ -178,7 +178,7 @@ a:hover, a:focus {
 	max-width: 26em;
 	line-height: 1.5em;
 	margin: 1em auto 3em;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.02em;
 }
 
 .work-cta a {
@@ -306,7 +306,7 @@ article p {
 	color:#2A2A2A;
 	line-height:1.7em;
 	margin:1em 0 1.8em 0;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.02em;
 }
 
 article p strong {
