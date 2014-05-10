@@ -229,8 +229,12 @@ a:hover, a:focus {
 	font: normal 400 1.1em 'rooney-sans', sans-serif;
 	line-height: 1.6em;
 	margin-top: 1em;
-	letter-spacing: -0.01em;
+	letter-spacing: -0.02em;
 	color: #818181;
+}
+
+#more {
+	font-size: 1em;
 }
 
 #article-nav {
@@ -293,8 +297,9 @@ article h1 {
 }
 
 article h3 {
-	font: normal 700 1.8em 'jaf-facitweb', sans-serif;
+	font: normal 700 1.5em 'jaf-facitweb', sans-serif;
 	line-height:1.3em;
+	margin-top: 2em;
 }
 
 article img {
@@ -325,12 +330,12 @@ article ul li {
 }
 
 #comment {
-	font: normal 400 1em 'jaf-facitweb', sans-serif;
+	font: normal 300 1.1em 'jaf-facitweb', sans-serif;
 	color:#555;
 	line-height:1.5em;
 	border-top: 1px solid #E5E5E5;
 	padding: 2em 0 0;
-	margin: 4em 0 1em;
+	margin: 4em 0 3em;
 	letter-spacing: -0.01em;
 }
 
