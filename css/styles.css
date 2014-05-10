@@ -392,6 +392,6 @@ article ul li {
 
 #error404 a:hover,
 #error404 a:focus {
-	color: #2A2A2A;
+	color: #555;
 	background-color: #FFF;
 }
