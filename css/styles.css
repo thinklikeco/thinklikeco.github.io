@@ -356,7 +356,7 @@ article ul li {
 #error404 div {
 	background-size: 100%;
 	padding: 4em 1em;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.5);
 	text-align: center;
 	color: #FFF;
 	position:fixed !important;
@@ -386,6 +386,6 @@ article ul li {
 
 #error404 a:hover,
 #error404 a:focus {
-	color: #555;
+	color: #818181;
 	background-color: #FFF;
 }
