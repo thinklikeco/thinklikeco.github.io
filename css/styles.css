@@ -30,7 +30,7 @@ img {
 		font-size:84%;
 	}
 	#container {
-		padding: 1em;
+		padding: 1em 1em 2em;
 	}
 	#content {
 		margin: 2em 0;
@@ -292,7 +292,7 @@ a:hover, a:focus {
 }
 
 article h1 {
-	font: normal 700 3.4em 'jaf-facitweb', sans-serif;
+	font: normal 700 3em 'jaf-facitweb', sans-serif;
 	line-height:1.3em;
 }
 
@@ -342,40 +342,10 @@ article ul li {
 #next-article div {
 	font: normal 700 0.7em 'jaf-facitweb', sans-serif;
 	color:#B2B2B2;
-	margin: 3em 0 1em;
+	margin: 3em 0 1.6em;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #error404 {
 	background-color: #5ED1BD;
