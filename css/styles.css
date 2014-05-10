@@ -348,51 +348,50 @@ article ul li {
 }
 
 #error404 {
-	background-color: #5ED1BD;
-	text-align: center;
-	color: #FFF;
+	background: url(../img/lost.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
-#error404-content {
-	max-width: 640px;
-	margin: 0 auto;
-	padding: 4em 1em;
+#error404 div {
+	background-size: 100%;
+	padding: 8em 1em;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	color: #FFF;
+	position:fixed !important;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
 }
 
 #error404 h1 {
-	font: normal 700 4em 'jaf-facitweb', sans-serif;
+	font: normal 700 3em 'jaf-facitweb', sans-serif;
+	margin-bottom: 1.4em;
 
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-font-smoothing: subpixel-antialiased;
 	font-smoothing: subpixel-antialiased;
 }
 
-#error404 p {
-	font: normal 400 1.2em 'jaf-facitweb', sans-serif;
-	line-height: 1.5em;
-	letter-spacing: -0.01em;
-	margin-top: 2em;
-
-	-webkit-font-smoothing: subpixel-antialiased;
-	-moz-font-smoothing: subpixel-antialiased;
-	font-smoothing: subpixel-antialiased;
+#error404 a {
+	padding: 1em 2em;
+	font: normal 400 1em Helvetica Neue, sans-serif;
+	color:#FFF;
+	border: 2px solid #FFF;
+	text-decoration: none;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
 }
 
-#error404 p a {
-	color: #c8efe8;
-	border-bottom: 1px dotted;
-	padding-bottom: 0.1em;
-
-	-webkit-transition: all 0.12s ease;
-	-moz-transition: all 0.12s ease;
-	transition: all 0.12s ease;
-}
-
-#error404 p a:hover,
-#error404 p a:focus {
-	color: #FFF;
-}
-
-#sign {
-	font-size: 6em;
+#error404 a:hover,
+#error404 a:focus {
+	color: #2A2A2A;
+	background-color: #FFF;
 }
