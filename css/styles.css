@@ -366,7 +366,7 @@ article ul li {
 #error404-content {
 	text-align: center;
 	color: #FFF;
-	padding: 4em 1em;
+	padding: 0 1em;
 	position:fixed !important;
 	top:20%;
 	right:0;
