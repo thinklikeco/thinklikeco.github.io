@@ -353,14 +353,17 @@ article ul li {
   	background-size: cover;
 }
 
-#error404 div {
+#error404-cover {
 	background-size: 100%;
-	padding: 4em 1em;
 	background-color: rgba(0,0,0,0.5);
+}
+
+#error404-content {
 	text-align: center;
 	color: #FFF;
+	padding: 4em 1em;
 	position:fixed !important;
-	top:0;
+	top:20%;
 	right:0;
 	bottom:0;
 	left:0;
