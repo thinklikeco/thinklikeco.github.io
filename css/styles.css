@@ -353,7 +353,7 @@ article ul li {
   	background-size: cover;
 }
 
-#error404-cover {
+#error404 div {
 	background-size: 100%;
 	padding: 4em 1em;
 	background-color: rgba(0,0,0,0.5);
@@ -364,10 +364,6 @@ article ul li {
 	right:0;
 	bottom:0;
 	left:0;
-}
-
-#error404-content {
-	top: 40%;
 }
 
 #error404 h1 {
