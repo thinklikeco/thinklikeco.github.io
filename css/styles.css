@@ -70,7 +70,7 @@ h1 {
 p {
 	font: normal 300 1.3em 'rooney-sans', sans-serif;
 	line-height: 1.7;
-	margin: 1em 0 1.8em 0;
+	margin: 1em 0 1.5em;
 	letter-spacing: -0.02em;
 }
 
@@ -226,7 +226,7 @@ a:hover, a:focus {
 #posts p {
 	font: normal 300 1.2em 'rooney-sans', sans-serif;
 	line-height: 1.5;
-	margin-top: 0.5em;
+	margin: 0.5em 0 1.5em;
 	letter-spacing: -0.02em;
 	color: #818181;
 }
