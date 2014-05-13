@@ -174,7 +174,7 @@ a:hover, a:focus {
 
 #work p {
 	font: normal 300 1.1em 'rooney-sans', sans-serif;
-	color: #919191;
+	color: #818181;
 	max-width: 26em;
 	line-height: 1.4;
 	margin: 1em auto 3em;
@@ -279,8 +279,8 @@ a:hover, a:focus {
 
 .post-meta {
 	font: normal 300 1.2em 'jaf-facitweb', sans-serif;
-	color:#888;
-	padding:2em 0 1em;
+	color: #818181;
+	padding: 2em 0 1em;
 }
 
 .post-meta span {
