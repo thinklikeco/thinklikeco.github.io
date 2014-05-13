@@ -223,7 +223,8 @@ a:hover, a:focus {
 	line-height: 1.3em;
 }
 
-#posts p {
+#posts p,
+#next-article p {
 	font: normal 300 1.2em 'rooney-sans', sans-serif;
 	line-height: 1.5;
 	margin-top: 0.5em;
