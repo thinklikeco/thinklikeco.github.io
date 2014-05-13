@@ -63,14 +63,14 @@ img {
 
 h1 {
 	font: normal 700 2.6em 'jaf-facitweb', Helvetica Neue, Arial, sans-serif;
-	line-height: 1.2em;
+	line-height: 1.2;
 	letter-spacing: -0.02em;
 }
 
 p {
 	font: normal 300 1.3em 'rooney-sans', sans-serif;
-	line-height:1.7em;
-	margin:1em 0 1.8em 0;
+	line-height: 1.6;
+	margin: 1em 0 1.8em 0;
 	letter-spacing: -0.02em;
 }
 
@@ -176,7 +176,7 @@ a:hover, a:focus {
 	font: normal 300 1.1em 'rooney-sans', sans-serif;
 	color: #919191;
 	max-width: 26em;
-	line-height: 1.5em;
+	line-height: 1.4;
 	margin: 1em auto 3em;
 	letter-spacing: -0.02em;
 }
@@ -225,7 +225,7 @@ a:hover, a:focus {
 
 #posts p {
 	font: normal 300 1.1em 'rooney-sans', sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5;
 	margin-top: 1em;
 	letter-spacing: -0.02em;
 	color: #818181;
@@ -306,9 +306,9 @@ article img {
 
 article p {
 	font: normal 300 1.3em 'rooney-sans', sans-serif;
-	color:#2A2A2A;
-	line-height:1.7em;
-	margin:1em 0 1.8em 0;
+	color: #2A2A2A;
+	line-height: 1.6;
+	margin: 1em 0 1.8em 0;
 	letter-spacing: -0.02em;
 }
 
@@ -318,9 +318,9 @@ article p strong {
 
 article ul {
 	font: normal 700 1.2em 'rooney-sans', sans-serif;
-	color:#333;
-	line-height:1.5em;
-	margin:1em 0 1.8em 0;
+	color: #333;
+	line-height: 1.5;
+	margin: 1em 0 1.8em 0;
 }
 
 article ul li {
@@ -329,8 +329,8 @@ article ul li {
 
 #comment {
 	font: normal 300 1.1em 'jaf-facitweb', sans-serif;
-	color:#555;
-	line-height:1.5em;
+	color: #555;
+	line-height: 1.5;
 	border-top: 1px solid #EEE;
 	padding: 2em 0 0;
 	margin: 4em 0 3em;
@@ -339,7 +339,7 @@ article ul li {
 
 #next-article div {
 	font: normal 700 0.7em 'jaf-facitweb', sans-serif;
-	color:#B2B2B2;
+	color: #B2B2B2;
 	margin: 3em 0 1.6em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;	
@@ -356,11 +356,11 @@ article ul li {
 #error404-cover {
 	background-size: 100%;
 	background-color: rgba(92,157,146,0.5);
-	position:fixed !important;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
+	position: fixed !important;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 #error404-content {
@@ -368,10 +368,10 @@ article ul li {
 	color: #FFF;
 	padding: 0 1em;
 	position:fixed !important;
-	top:20%;
-	right:0;
-	bottom:0;
-	left:0;
+	top: 20%;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 #error404 h1 {
@@ -382,7 +382,7 @@ article ul li {
 #error404 a {
 	padding: 1em 2em;
 	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
-	color:#FFF;
+	color: #FFF;
 	border: 2px solid #FFF;
 	text-decoration: none;
 	
