@@ -221,7 +221,6 @@ a:hover, a:focus {
 #next-article a {
 	font: normal 700 1.5em 'jaf-facitweb', sans-serif;
 	line-height: 1.3em;
-	text-decoration: none;
 }
 
 #posts p {
