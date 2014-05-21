@@ -175,6 +175,10 @@ a:hover, a:focus {
 	border-radius: 4px;
 }
 
+#work li:last-child {
+	margin-bottom: 4em;
+}
+
 #work h2 {
 	font: normal 700 3em 'coquette', Helvetica Neue, Arial, sans-serif;
 	line-height: 1.2em;
