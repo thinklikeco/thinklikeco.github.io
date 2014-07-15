@@ -76,6 +76,12 @@ h1 {
 	letter-spacing: -0.02em;
 }
 
+h3 {
+	font: normal 700 1.5em 'jaf-facitweb', sans-serif;
+	line-height:1.3em;
+	margin-top: 2em;
+}
+
 p {
 	font: normal 300 1.3em 'rooney-sans', sans-serif;
 	line-height: 1.7;
