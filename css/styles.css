@@ -428,11 +428,11 @@ article ul li {
 
 .legal h1 {
 	font-size: 2em;
-	margin-top: 1em;
+	padding-top: 1em;
 }
 
 .legal h3 {
-	font-size: 1.6em;
+	font-size: 1.1em;
 }
 
 .legal p {
