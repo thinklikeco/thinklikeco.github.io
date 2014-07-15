@@ -422,10 +422,19 @@ article ul li {
 #intro {
 	color: #818181;
 	font-size: 1.1em;
-	line-height: 1.3em;
+	line-height: 1.35em;
 	margin-bottom: 2em;
 }
 
-#legal p {
+.legal h1 {
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.legal h3 {
+	font-size: 1.6em;
+}
+
+.legal p {
 	font-size: 1.1em;
 }
