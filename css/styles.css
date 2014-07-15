@@ -416,3 +416,10 @@ article ul li {
 	color: #777;
 	background-color: #FFF;
 }
+
+/*******  Legal Mumbo Jumbo *******/
+
+#intro {
+	color: #818181;
+	font-size: 1.1em;
+}
