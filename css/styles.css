@@ -219,7 +219,7 @@ a:hover, a:focus {
 	color: #818181;
 	max-width: 26em;
 	line-height: 1.4;
-	margin: 1em auto 3em;
+	margin: 1em auto;
 	letter-spacing: -0.02em;
 }
 
@@ -263,6 +263,7 @@ a:hover, a:focus {
 #next-article a {
 	font: normal 700 1.5em 'jaf-facitweb', sans-serif;
 	line-height: 1.3em;
+	text-decoration: none;
 }
 
 #posts p {
