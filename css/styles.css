@@ -160,35 +160,6 @@ a:hover, a:focus {
 	opacity: 0.6;
 }
 
-#social {
-	text-align: center;
-	padding: 2em 0;
-}
-
-#social li {
-	display: inline-block;
-}
-
-#social li a {
-	padding: 0.6em;
-	font-size: 1.8em;
-	text-decoration: none;
-	vertical-align: middle;
-}
-
-#twitter a {
-	color:#00ACED;
-}
-
-#dribbble a {
-	color:#EA4C89;
-}
-
-#social li a:hover,
-#social li a:focus {
-	opacity: 0.6;
-}
-
 #content {
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-font-smoothing: subpixel-antialiased;
