@@ -77,6 +77,9 @@ img {
 	#posts li {
 		padding: 3em 0 1em;
 	}
+	#posts li:first-child {
+		padding: 1em 0 1em;
+	}
 }
 
 h1 {
@@ -246,6 +249,10 @@ a:hover, a:focus {
 
 #posts li {
 	border-bottom: 1px solid #EEE;
+}
+
+#posts li:first-child {
+	
 }
 
 #posts a,
