@@ -29,11 +29,14 @@ img {
 	body {
 		font-size: 90%;
 	}
+	#header-container {
+		padding: 2em 1em;
+	}
 	#container {
 		padding: 1.5em 1em;
 	}
 	#content {
-		margin: 2em 0;
+		margin: 6em 0 3em;
 	}
 	#posts li {
 		padding: 2em 0 0;
@@ -44,11 +47,14 @@ img {
 	body {
 		font-size: 90%;
 	}
+	#header-container {
+		padding: 2em;
+	}
 	#container {
 		padding: 2em;
 	}
 	#content {
-		margin: 3em 0;
+		margin: 6em 0 3em;
 	}
 	#posts li {
 		padding: 3em 0 1em;
@@ -59,11 +65,14 @@ img {
 	body {
 		font-size: 100%;
 	}
+	#header-container {
+		padding: 2em;
+	}
 	#container {
 		padding: 2em;
 	}
 	#content {
-		margin: 3em 0;
+		margin: 6em 0 4em;
 	}
 	#posts li {
 		padding: 3em 0 1em;
@@ -107,6 +116,19 @@ a:hover, a:focus {
 }
 
 #container {
+	max-width: 36em;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	min-width: 320px;
+	position: fixed;
+	background-color: rgba(255,255,255,0.95);
+	border-bottom: 1px solid #EEE;
+}
+
+#header-container {
 	max-width: 36em;
 	margin: 0 auto;
 }
