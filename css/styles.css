@@ -282,48 +282,6 @@ a:hover, a:focus {
 	margin: 0;
 }
 
-#article-nav {
-	margin-bottom:3em;
-}
-
-#all-posts {
-	float:left;
-}
-
-#toggle {
-	float:right;
-}
-
-#all-posts a,
-#toggle a {
-	padding:0.7em 1.2em 0.5em;
-	font-size:1em;
-	color:#5ED1BD;
-	border: 2px solid #5ED1BD;
-	text-decoration: none;
-	vertical-align: middle;
-	
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	border-radius:5px;
-	
-	-webkit-transition: all 0.12s ease;
-	-moz-transition: all 0.12s ease;
-	transition: all 0.12s ease;
-}
-
-#toggle a:first-child {
-	margin-right:1em;
-}
-
-#all-posts a:hover,
-#all-posts ul li a:focus,
-#toggle a:hover,
-#toggle ul li a:focus {
-	color: #FFF;
-	background-color:#5ED1BD;
-}
-
 .post-meta {
 	font: normal 300 1.2em 'jaf-facitweb', sans-serif;
 	color: #818181;
@@ -442,27 +400,4 @@ article ul li {
 #error404 a:focus {
 	color: #777;
 	background-color: #FFF;
-}
-
-/*******  Legal Mumbo Jumbo *******/
-
-#intro {
-	color: #818181;
-	font-size: 1em;
-	line-height: 1.5em;
-	margin-bottom: 2em;
-}
-
-.legal h1 {
-	font-size: 2em;
-	padding-top: 1em;
-}
-
-.legal h3 {
-	font-size: 1.1em;
-}
-
-.legal p {
-	font-size: 1.1em;
-	line-height: 1.6em;
 }
