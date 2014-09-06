@@ -134,6 +134,9 @@ a:hover, a:focus {
 	min-width: 320px;
 	position: fixed;
 	background-color: rgba(255,255,255,0.95);
+	background-image: url(/img/navbg.png);
+	background-repeat: repeat-x;
+	background-position: top;
 	border-bottom: 1px solid #EEE;
 }
 
