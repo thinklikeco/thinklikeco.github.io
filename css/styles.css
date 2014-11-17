@@ -60,10 +60,10 @@ img {
 		margin: 4em 0 3em;
 	}
 	#posts li {
-		padding: 3em 0 1em;
+		padding: 2em 0 0;
 	}
 	#posts li:first-child {
-		padding: 1em 0 1em;
+		padding: 1em 0 0;
 	}
 }
 
@@ -81,10 +81,10 @@ img {
 		margin: 4em 0 4em;
 	}
 	#posts li {
-		padding: 3em 0 1em;
+		padding: 2em 0 0;
 	}
 	#posts li:first-child {
-		padding: 1em 0 1em;
+		padding: 1em 0 0;
 	}
 }
 
