@@ -258,6 +258,7 @@ a:hover, a:focus {
 
 #posts {
 	padding-bottom: 3em;
+	text-align: center;
 }
 
 #posts li {
@@ -270,8 +271,9 @@ a:hover, a:focus {
 
 #posts a,
 #next-article a {
-	font: normal 700 1.5em 'jaf-facitweb', sans-serif;
+	font: normal 300 1.6em 'jaf-facitweb', sans-serif;
 	line-height: 1.3em;
+	letter-spacing: -0.01em;
 	text-decoration: none;
 }
 
