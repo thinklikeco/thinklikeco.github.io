@@ -288,6 +288,7 @@ a:hover, a:focus {
 #posts li div {
 	font: normal 300 0.7em 'jaf-facitweb', sans-serif;
 	text-transform: uppercase;
+	letter-spacing: 0.02em;
 	color: #B5B5B5;
 	margin-bottom: 1.5em;
 }
