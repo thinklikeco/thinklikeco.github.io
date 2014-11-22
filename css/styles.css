@@ -286,9 +286,10 @@ a:hover, a:focus {
 }
 
 #posts li div {
-	font: italic 300 0.8em 'jaf-facitweb', sans-serif;
+	font: normal 300 0.7em 'jaf-facitweb', sans-serif;
 	text-transform: uppercase;
 	color: #C5C5C5;
+	margin-bottom: 1em;
 }
 
 #more {
