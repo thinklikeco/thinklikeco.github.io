@@ -271,7 +271,7 @@ a:hover, a:focus {
 
 #posts a,
 #next-article a {
-	font: normal 300 1.6em 'jaf-facitweb', sans-serif;
+	font: normal 300 1.5em 'jaf-facitweb', sans-serif;
 	line-height: 1.3em;
 	letter-spacing: -0.01em;
 	text-decoration: none;
@@ -283,6 +283,12 @@ a:hover, a:focus {
 	margin: 0.15em 0 1.5em;
 	letter-spacing: -0.02em;
 	color: #919191;
+}
+
+#posts li div {
+	font: italic 300 0.8em 'jaf-facitweb', sans-serif;
+	text-transform: uppercase;
+	color: #C5C5C5;
 }
 
 #more {
