@@ -39,10 +39,10 @@ img {
 		margin: 4em 0 3em;
 	}
 	#posts li {
-		padding: 2em 0 0;
+		padding: 2.5em 0 0;
 	}
 	#posts li:first-child {
-		padding: 0;
+		padding: 0.5em 0 1em;
 	}
 }
 
@@ -60,10 +60,10 @@ img {
 		margin: 4em 0 3em;
 	}
 	#posts li {
-		padding: 2em 0 1em;
+		padding: 2.5em 0 1em;
 	}
 	#posts li:first-child {
-		padding: 0;
+		padding: 0.5em 0 1em;
 	}
 }
 
@@ -81,10 +81,10 @@ img {
 		margin: 4em 0 4em;
 	}
 	#posts li {
-		padding: 2em 0 1em;
+		padding: 2.5em 0 1em;
 	}
 	#posts li:first-child {
-		padding: 0;
+		padding: 0.5em 0 1em;
 	}
 }
 
