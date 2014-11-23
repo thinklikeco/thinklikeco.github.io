@@ -282,6 +282,27 @@ a:hover, a:focus {
 	border-radius:5px;
 }
 
+#inquire h3 {
+	color: #FFF;
+	margin-top: 0;
+}
+
+#inquire p {
+	color: rgba(255,255,255,0.8);
+}
+
+#inquire a {
+	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
+	background-color: #FFF;
+	padding: 1em 2em;
+	text-decoration: none;
+	letter-spacing: 0.01em;
+
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
 #posts {
 	padding-bottom: 3em;
 	text-align: center;
