@@ -200,7 +200,7 @@ a:hover, a:focus {
 	padding: 0.5em 0.9em;
 	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
 	color:#FFF;
-	background-image: linear-gradient(to bottom right, #94B4E7, #5ED1BD);
+	background-image: linear-gradient(to bottom right, #5ED1BD, #3BB9A4);
 	background-color: #5ED1BD;
 	text-decoration: none;
 	letter-spacing: 0.01em;
@@ -308,7 +308,7 @@ a:hover, a:focus {
 
 #inquire a {
 	font: normal 700 1.2em 'rooney-sans', Helvetica Neue, sans-serif;
-	background-image: linear-gradient(to bottom right, #94B4E7, #5ED1BD);
+	background-image: linear-gradient(to bottom right, #94B4E7, #6C93D2);
 	background-color: #94B4E7;
 	color: #FFF;
 	padding: 1em 2em;
