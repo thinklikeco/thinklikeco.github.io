@@ -158,7 +158,7 @@ a:hover, a:focus {
 }
 
 #nav li a {
-	padding: 0.98em 0.8em;
+	padding: 1.1em 0.8em 0.98em;
 	font: normal 700 1.1em 'jaf-facitweb', sans-serif;
 	text-decoration: none;
 	color: #B2B2B2;
@@ -170,11 +170,13 @@ a:hover, a:focus {
 
 #nav li a.current {
 	color: #2A2A2A;
+	background-color: #F3F3F3;
 
-	-webkit-box-shadow: inset 0 -3px 0 #5ED1BD;
-  	-moz-box-shadow: inset 0 -3px 0 #5ED1BD;
-  	-o-box-shadow: inset 0 -3px 0 #5ED1BD;
-  	box-shadow: inset 0 -3px 0 #5ED1BD;
+
+	-webkit-box-shadow: inset 0 -3px 0 #5ED1BD, inset 0 -1px 1px #CCC;
+  	-moz-box-shadow: inset 0 -3px 0 #5ED1BD, inset 0 -1px 1px #CCC;
+  	-o-box-shadow: inset 0 -3px 0 #5ED1BD, inset 0 -1px 1px #CCC;
+  	box-shadow: inset 0 -3px 0 #5ED1BD, inset 0 -1px 1px #CCC;
 }
 
 #nav li a:hover {
@@ -196,6 +198,11 @@ a:hover, a:focus {
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
+
+	-webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+  	-moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+  	-o-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
+  	box-shadow: inset 0 -2px 0 rgba(0,0,0,0.1);
 }
 
 #hire a:hover,
