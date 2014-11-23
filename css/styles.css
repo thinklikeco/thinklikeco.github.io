@@ -274,7 +274,7 @@ a:hover, a:focus {
 }
 
 #inquire {
-	padding: 2em;
+	padding: 2em 2em 3em;
 	background-color: #94B4E7;
 
 	-webkit-border-radius:5px;
@@ -292,11 +292,13 @@ a:hover, a:focus {
 }
 
 #inquire a {
-	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
+	font: normal 700 1.2em 'rooney-sans', Helvetica Neue, sans-serif;
 	background-color: #FFF;
 	padding: 1em 2em;
 	text-decoration: none;
 	letter-spacing: 0.01em;
+	display: block;
+	text-align: center;
 
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
