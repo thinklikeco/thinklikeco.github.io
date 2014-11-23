@@ -191,11 +191,11 @@ a:hover, a:focus {
 	padding: 0.5em 0.9em;
 	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
 	color:#FFF;
-	background-image: linear-gradient(to bottom right, #94B4E7, #5ED1BD);
+	background-image: linear-gradient(to top right, #94B4E7, #5ED1BD);
 	background-color: #5ED1BD;
 	text-decoration: none;
 	letter-spacing: 0.01em;
-	
+
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
