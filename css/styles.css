@@ -30,7 +30,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1.2em 1em 1em;
+		padding: 1em;
 	}
 	#container {
 		padding: 1.5em 1em;
@@ -54,7 +54,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1.2em 2em 1em;
+		padding: 1em 2em;
 	}
 	#container {
 		padding: 2em;
@@ -78,7 +78,7 @@ img {
 		font-size: 100%;
 	}
 	#header-container {
-		padding: 1.2em 2em 1em;
+		padding: 1em 2em;
 	}
 	#container {
 		padding: 2em;
@@ -197,7 +197,7 @@ a:hover, a:focus {
 }
 
 #hire a {
-	padding: 0.6em 1.2em;
+	padding: 0.5em 1.2em 0.6em;
 	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
 	color:#FFF;
 	background-image: linear-gradient(to bottom right, #5ED1BD, #3BB9A4);
