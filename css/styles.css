@@ -194,6 +194,7 @@ a:hover, a:focus {
 
 #hire {
 	float: right;
+	margin-top: 0.05em;
 }
 
 #hire a {
@@ -311,7 +312,7 @@ a:hover, a:focus {
 	background-image: linear-gradient(to bottom right, #94B4E7, #6C93D2);
 	background-color: #94B4E7;
 	color: #FFF;
-	padding: 1em 2em;
+	padding: 1em 2em 1.05em;
 	text-decoration: none;
 	letter-spacing: 0.01em;
 	display: block;
