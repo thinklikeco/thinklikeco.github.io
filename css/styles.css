@@ -449,11 +449,15 @@ article ul li {
 }
 
 #next-article div {
-	font: italic 300 0.7em 'jaf-facitweb', sans-serif;
+	font: normal 300 0.8em 'jaf-facitweb', sans-serif;
 	color: #B2B2B2;
-	margin: 3em 0 1.6em;
+	margin: 3em 0 1.5em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
+}
+
+#next-article a {
+	font-size: 2em;
 }
 
 #error404 {
