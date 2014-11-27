@@ -441,14 +441,16 @@ article ul li {
 	padding: 2em 0 0;
 	margin: 4em 0 3em;
 	letter-spacing: -0.01em;
+	text-align: center;
 }
 
 #next-article div {
-	font: normal 700 0.7em 'jaf-facitweb', sans-serif;
+	font: normal 300 0.7em 'jaf-facitweb', sans-serif;
 	color: #B2B2B2;
 	margin: 3em 0 1.6em;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;	
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 #error404 {
