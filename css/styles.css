@@ -444,13 +444,16 @@ article ul li {
 	text-align: center;
 }
 
+#next-article {
+	text-align: center;
+}
+
 #next-article div {
-	font: normal 300 0.7em 'jaf-facitweb', sans-serif;
+	font: italic 300 0.7em 'jaf-facitweb', sans-serif;
 	color: #B2B2B2;
 	margin: 3em 0 1.6em;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 #error404 {
