@@ -163,7 +163,8 @@ a:hover, a:focus {
 	background-image: url("/img/favicon.png");
 	background-size: 36px;
 	height: 36px;
-	margin: -0.5em 1em -1em 0;
+	width: 36px;
+	margin: -0.35em 1em -1em 0;
 	
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
