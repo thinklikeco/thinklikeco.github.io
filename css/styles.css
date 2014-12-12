@@ -162,10 +162,10 @@ a:hover, a:focus {
 #logo {
 	float: left;
 	background-image: url("/img/favicon.png");
-	background-size: 32px;
-	height: 32px;
-	width: 32px;
-	margin: -0.5em 1em -1em 0;
+	background-size: 28px;
+	height: 28px;
+	width: 28px;
+	margin: -0.3em 1em -1em 0;
 	
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
