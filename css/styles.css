@@ -47,9 +47,6 @@ img {
 	#inquire {
 		padding: 1.5em;
 	}
-	#logo {
-		display: none;
-	}
 }
 
 @media screen and (max-width: 520px) and (min-width: 400px) {
@@ -146,7 +143,7 @@ a:hover, a:focus {
 	min-width: 320px;
 	position: fixed;
 	background-color: rgba(249,249,249,0.96);
-	background-image: url(../img/navbg.png);
+	background-image: url(/img/navbg.png);
 	background-repeat: repeat-x;
 	background-position: top;
 	z-index: 100;
@@ -165,14 +162,22 @@ a:hover, a:focus {
 #logo {
 	float: left;
 	background-image: url("/img/favicon.png");
-	background-size: 32px;
-	height: 32px;
-	width: 32px;
-	margin: -0.2em 1em -1em 0;
+	background-size: 36px;
+	height: 36px;
+	width: 36px;
+	margin: -0.5em 1em -1em 0;
 	
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
 	border-radius:100%;
+}
+
+#logo:hover {
+	opacity: 0.7;
+
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 #nav {
