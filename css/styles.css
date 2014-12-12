@@ -30,7 +30,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1em 1em 0.55em;
+		padding: 1.1em 1em 0.55em;
 	}
 	#container {
 		padding: 1.5em 1em;
@@ -54,7 +54,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1em 2em 0.55em;
+		padding: 1.1em 2em 0.55em;
 	}
 	#container {
 		padding: 2em;
@@ -78,7 +78,7 @@ img {
 		font-size: 100%;
 	}
 	#header-container {
-		padding: 1em 2em 0.55em;
+		padding: 1.1em 2em 0.55em;
 	}
 	#container {
 		padding: 2em;
@@ -189,7 +189,7 @@ a:hover, a:focus {
 }
 
 #nav li a {
-	padding: 1.6em 1.4em 1.5em;
+	padding: 1.9em 1.4em 1.6em;
 	font: normal 700 0.7em 'jaf-facitweb', sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -218,7 +218,7 @@ a:hover, a:focus {
 
 #hire {
 	float: right;
-	margin-bottom: 0.4em;
+	margin: -0.1em 0 0.6em;
 }
 
 #hire a {
