@@ -30,7 +30,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1em 1em 0.75em;
+		padding: 1em 1em 0.55em;
 	}
 	#container {
 		padding: 1.5em 1em;
@@ -54,7 +54,7 @@ img {
 		font-size: 90%;
 	}
 	#header-container {
-		padding: 1em 2em 0.75em;
+		padding: 1em 2em 0.55em;
 	}
 	#container {
 		padding: 2em;
@@ -78,7 +78,7 @@ img {
 		font-size: 100%;
 	}
 	#header-container {
-		padding: 1em 2em 0.75em;
+		padding: 1em 2em 0.55em;
 	}
 	#container {
 		padding: 2em;
@@ -218,7 +218,7 @@ a:hover, a:focus {
 
 #hire {
 	float: right;
-	margin-bottom: 0.3em;
+	margin-bottom: 0.4em;
 }
 
 #hire a {
