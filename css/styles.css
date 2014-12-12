@@ -162,10 +162,10 @@ a:hover, a:focus {
 #logo {
 	float: left;
 	background-image: url("/img/favicon.png");
-	background-size: 36px;
-	height: 36px;
-	width: 36px;
-	margin: -0.55em 1em -1em 0;
+	background-size: 32px;
+	height: 32px;
+	width: 32px;
+	margin: -0.5em 1em -1em 0;
 	
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
@@ -218,6 +218,7 @@ a:hover, a:focus {
 
 #hire {
 	float: right;
+	margin-bottom: 0.3em;
 }
 
 #hire a {
