@@ -48,7 +48,7 @@ img {
 		padding: 1.5em;
 	}
 	#error404 {
-		background: url(/img/lost.jpg) no-repeat center center fixed; 
+		background: url(../img/lost.jpg) no-repeat center center fixed; 
 	 	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
@@ -83,7 +83,7 @@ img {
 		padding: 2em;
 	}
 	#error404 {
-		background: url(/img/lost.jpg) no-repeat center center fixed; 
+		background: url(../img/lost.jpg) no-repeat center center fixed; 
 	 	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
@@ -115,6 +115,22 @@ img {
 	}
 	#inquire {
 		padding: 3em;
+	}
+	#error404-video {
+		min-height: 100%;
+		min-width: 100%;
+		height: auto;
+		width: auto;
+		display: inline-block;
+		overflow: hidden;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		background: url(../img/lost.jpg) no-repeat center center fixed; 
+	 	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
 	}
 }
 
@@ -501,23 +517,6 @@ article ul li {
 	font-size: 2em;
 }
 
-#error404-video {
-	min-height: 100%;
-	min-width: 100%;
-	height: auto;
-	width: auto;
-	display: inline-block;
-	overflow: hidden;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	background: url(/img/lost.jpg) no-repeat center center fixed; 
- 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
 #error404-cover {
 	background-size: 100%;
 	background-color: rgba(0,0,0,0.35);
@@ -548,12 +547,13 @@ article ul li {
 	padding: 1em 2em;
 	font: normal 700 1em 'rooney-sans', Helvetica Neue, sans-serif;
 	color: #FFF;
+	background-color: rgba(255,255,255,0.25);
 	border: 2px solid #FFF;
 	text-decoration: none;
 	
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	border-radius:5px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
 }
 
 #error404 a:hover,
