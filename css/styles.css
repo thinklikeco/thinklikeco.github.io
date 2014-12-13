@@ -197,10 +197,6 @@ a:hover, a:focus {
 	color: #B2B2B2;
 }
 
-/*#nav li:first-child a {
-	padding-left: 0;
-}*/
-
 #nav li a.current {
 	color: #2A2A2A;
 	background-color: #F3F3F3;
@@ -484,7 +480,16 @@ article ul li {
 	font-size: 2em;
 }
 
-#error404 {
+#error404-video {
+	min-height: 100%;
+	min-width: 100%;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	bottom: 0;
 	background: url(../img/lost.jpg) no-repeat center center fixed; 
  	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -494,7 +499,7 @@ article ul li {
 
 #error404-cover {
 	background-size: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.35);
 	position: fixed !important;
 	top: 0;
 	right: 0;
