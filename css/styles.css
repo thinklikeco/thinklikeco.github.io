@@ -48,7 +48,7 @@ img {
 		padding: 1.5em;
 	}
 	#error404 {
-		background: url(/img/lost.jpg) no-repeat center center fixed; 
+		background: url(/img/nowhere.jpg) no-repeat center center fixed; 
 	 	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
@@ -83,7 +83,7 @@ img {
 		padding: 2em;
 	}
 	#error404 {
-		background: url(/img/lost.jpg) no-repeat center center fixed; 
+		background: url(/img/nowhere.jpg) no-repeat center center fixed; 
 	 	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
@@ -126,7 +126,7 @@ img {
 		position: fixed;
 		right: 0;
 		bottom: 0;
-		background: url(/img/lost.jpg) no-repeat center center fixed; 
+		background: url(/img/nowhere.jpg) no-repeat center center fixed; 
 	 	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
