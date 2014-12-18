@@ -9,7 +9,6 @@
 <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
 <link rel="icon" type="image/png" href="/img/favicon.png" />
 <link rel="stylesheet" href="/css/styles.css" />
-<link rel="stylesheet" href="/webfonts/ss-social-regular.css" />
 <link rel="stylesheet" href="/webfonts/ss-standard.css" />
 <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -70,6 +69,15 @@
         </div>
     </div>
 
+<script src='/js/headroom.js'></script>
+<script>
+    // grab an element
+    var myElement = document.querySelector("#header");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init(); 
+</script> 
 </body>
 
 </html>
