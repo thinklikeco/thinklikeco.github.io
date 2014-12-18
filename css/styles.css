@@ -192,9 +192,9 @@ a:hover, a:focus {
 }
 
 .headroom {
-    -webkit-transition: transform 300ms linear;
-    -moz-transition: transform 300ms linear;
-    transition: transform 300ms linear;
+    -webkit-transition: transform 260ms linear;
+    -moz-transition: transform 260ms linear;
+    transition: transform 260ms linear;
 }
 .headroom--pinned {
     -webkit-transform: translateY(0%);
