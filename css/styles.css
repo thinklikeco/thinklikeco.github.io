@@ -191,6 +191,22 @@ a:hover, a:focus {
   	box-shadow: 0 1px 0 rgba(0,0,0,0.06);
 }
 
+.headroom {
+    -webkit-transition: transform 300ms linear;
+    -moz-transition: transform 300ms linear;
+    transition: transform 300ms linear;
+}
+.headroom--pinned {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    -webkit-transform: translateY(-110%);
+    -moz-transform: translateY(-110%);
+    transform: translateY(-110%);
+}
+
 #header-container {
 	max-width: 36em;
 	margin: 0 auto;
@@ -281,7 +297,7 @@ a:hover, a:focus {
 #hire a:hover,
 #hire a:focus {
 	opacity: 0.6;
-}
+}	
 
 #content {
 	-webkit-font-smoothing: subpixel-antialiased;

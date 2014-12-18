@@ -117,7 +117,16 @@
             <p id="more">Looking for more? Check out my HubSpot blog post on <a href="http://blog.hubspot.com/marketing/customers-design-better-social-tool" target="_blank">how I designed a publishing tool</a> to share content differently, or see what I've been up to on <a href="https://medium.com/@thinklikeco" target="_blank">Medium</a>.</p>
         </div>
     </div>  
-    
+
+<script src='/js/headroom.js'></script>
+<script>
+    // grab an element
+    var myElement = document.querySelector("#header");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init(); 
+</script> 
 </body>
 
 </html>
