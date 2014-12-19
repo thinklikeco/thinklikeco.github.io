@@ -250,7 +250,7 @@ a:hover, a:focus {
 
 #nav li a.current {
 	color: #2A2A2A;
-	background-image: linear-gradient(to bottom right, #F3F3F3, #E7E7E7);
+	background-image: linear-gradient(to bottom right, #F5F5F5, #E9E9E9);
 	background-color: #F3F3F3;
 
 
