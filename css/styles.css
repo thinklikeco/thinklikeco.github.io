@@ -457,7 +457,8 @@ a:hover, a:focus {
 .post-meta {
 	font: normal 300 1.1em 'jaf-facitweb', sans-serif;
 	color: #818181;
-	padding: 1.5em 0 1em;
+	padding: 1.5em 0 3em;
+	text-align: center;
 }
 
 .post-meta span {
@@ -469,6 +470,8 @@ a:hover, a:focus {
 article h1 {
 	font: normal 700 2.7em 'jaf-facitweb', sans-serif;
 	line-height:1.3em;
+	text-align: center;
+	margin-top: 2em;
 }
 
 article h3 {
