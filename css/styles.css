@@ -455,9 +455,9 @@ a:hover, a:focus {
 }
 
 .post-meta {
-	font: normal 300 1.1em 'jaf-facitweb', sans-serif;
+	font: normal 300 1em 'jaf-facitweb', sans-serif;
 	color: #818181;
-	padding: 1.5em 0 3em;
+	padding: 1.5em 0 2em;
 	text-align: center;
 }
 
