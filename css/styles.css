@@ -150,6 +150,8 @@ mark {
 @media (max-width: 400px) {
   .screenshot {
     padding: 1em;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
   }
 }
 
@@ -179,6 +181,13 @@ mark {
 @media (max-width: 400px) {
   .info {
     padding: 1em;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    background-color: #EDF2F4;
+
+    -moz-box-shadow: 1px 0 0 #EDF2F4;
+    -webkit-box-shadow: 1px 0 0 #EDF2F4;
+    box-shadow: 1px 0 0 #EDF2F4;
   }
 }
 
