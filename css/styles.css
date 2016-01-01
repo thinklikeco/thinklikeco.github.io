@@ -336,7 +336,7 @@ article h2 {
 
 .post-body {
   max-width: 32em;
-  margin: 1em auto 3em;
+  margin: 1em auto 2em;
 }
 
 .post-body p:first-child:first-letter {
@@ -356,16 +356,9 @@ article h2 {
 
 .post-follow {
   max-width: 32em;
-  margin: 0 auto 2em;
+  margin: 0 auto 1em;
   padding-top: 2em;
   border-top: 1px solid #EDF2F4;
-}
-
-.share {
-  text-decoration: none;
-  border-bottom: 1px dotted;
-  padding-bottom: 0.25em;
-  cursor: copy;
 }
 
 
