@@ -147,6 +147,12 @@ mark {
   margin-bottom: -99999px;
 }
 
+@media (max-width: 400px) {
+  .screenshot {
+    padding: 1em;
+  }
+}
+
 .screenshot img {
   padding-bottom: 2em;
   margin-left: 4%;
@@ -168,6 +174,12 @@ mark {
   -moz-box-shadow: 1px 0 0 #EDF2F4;
   -webkit-box-shadow: 1px 0 0 #EDF2F4;
   box-shadow: 1px 0 0 #EDF2F4;
+}
+
+@media (max-width: 400px) {
+  .info {
+    padding: 1em;
+  }
 }
 
 .info p {
