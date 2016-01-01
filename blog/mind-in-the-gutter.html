@@ -5,23 +5,23 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Mind In The Gutter</title>
+  <title>Think Like | Mind In The Gutter</title>
   <meta name="description" content="In comic books, it's what isn't on the page that glues the story together.">
   <meta name="author" content="Chase Oliver">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/styles.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../images/favicon.png" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
   <!-- Google Analytics
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,63 +41,43 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="header" class="container">
-    <a href="/"><img src="../images/profile.png"></a>
-    <ul>
-      <li><a href="/work">Work</a></li>
-      <li><a class="current" href="/blog">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </div>
-
-  <div id="post-header" class="container">
-    <h1>Mind In The Gutter</h1>
-    <div class="date-large">June 18<sup>th</sup>, 2013</div>
-    <img src="../images/gutter.jpg">
-  </div>
-
-  <div id="article" class="container">
-    <div class="card">
-      <p>Graphic novels are a vivid and engaging form of storytelling. They paint the scene and frame the mood without forcing your imagination out of the driver’s seat. I can’t tell if I’m watching a book or reading a movie, and I love it.</p>
-      <p>The more graphic novels I read the more I ask myself how the same storytelling techniques can be used in everyday web design. While there are many techniques to learn from, perhaps the most instructive is the strategic use of the void between panels: the gutter.</p>
-    </div>
-    <div class="card">
-      <h4>What happens in the gutter?</h4>
-      <p>Magic. Graphic novels — okay fine, <em>comics</em> — primarily consist of three things: dialogue, imagery, and the reader’s imagination. That critical third component is empowered by the gutter. The reader uses that space as a catalyst to glue the story together by filling the gap with past experiences of their own. And it all happens by design.</p>
-      <p>Comic creators carefully choose which content goes undefined as a way of enhancing the content that’s actually there. They understand that everyone’s experiences are different, and when the reader is allowed to fill in the gaps it creates an emotional affinity that can only be done through collaboration between the storyteller and their audience.</p>
-      <p>This is different than minimalism on the web, where designers try to avoid overwhelming users with too much content for the sake of increasing retention. But there’s much more addition that can be done through subtraction. It’s not just space between ideas, but a chance to analyze and connect ideas based on what we know. Including a gutter in your design will <strong>give your audience something to imagine as a way to enhance what they see</strong>.</p>
-    </div>
-    <div class="card">
-      <h4>What this can mean for the web</h4>
-      <p>The stories we tell on the web offer the best opportunity to bond with our audience — stories that can deliver more personal messages and resonate with each reader by leaving the right content undefined.</p>
-      <p>So what can be left undefined in web design that will actually add to the experience? There are techniques that already exist that, when used together, can make for a powerful effect. A blurred background image can make someone think not where the image was taken but of a time they experienced a similar sight. A simple illustration can depict an environment without seeming like a real place, allowing someone to imagine their own. It can even be as simple as breaking up content at the right moments to allow your audience to reflect as they transition to the next section.</p>
-      <p>When I finish reading a graphic novel I don’t just feel as though I helped tell the story, I feel like an enabler; an accomplice to the actions of the story’s characters. I become attached to the creator’s work, almost as if I were a silent collaborator. It’s a feeling I want those viewing my designs to experience.</p>
-      <p>It’s your message and your design. But it’s their story.</p>
-    </div>
-    <div class="card secondary">
-      <div class="row">
-        <div class="one-half column">
-          <h5>Share this post</h5>
-          <pre><code>http://bit.ly/1EC9wOK</code></pre>
-          <h5>Question or comment?</h5>
-          <p>Tweet <a href="https://twitter.com/intent/tweet?screen_name=thinklikeco" target="_blank">@thinklikeco</a> anytime.</p>
-        </div>
-        <div class="one-half column">
-          <h5>Keep reading</h5>
-          <ul>
-            <li><a href="how-to-sell-a-vacuum.html">How to Sell a Vacuum</a></li>
-            <li><a href="time-is-your-first-constraint.html">Time Is Your First Constraint</a></li>
-            <li><a href="fire-10-percent-of-your-features.html">Fire 10% of Your Features</a></li>
-            <li><a href="secret-to-snapchats-growth.html">Secret to Snapchat's Growth</a></li>
-          </ul>
-        </div>
+  <div class="container">
+    <header class="row">
+      <a class="me sticky u-pull-left" href="/">Me</a>
+      <ul class="u-pull-right">
+        <li><a href="/work">Work</a></li>
+        <li><a class="current" href="/blog">Blog</a></li>
+      </ul>
+    </header>
+    <article class="crisp">
+      <div class="row post-header">
+        <time>June 18<sup>th</sup>, 2013</time>
+        <h1>Mind In The Gutter</h1>
+        <img src="/images/gutter.jpg" />
       </div>
+      <div class="row post-body">
+        <p>Graphic novels are a vivid and engaging form of storytelling. They paint the scene and frame the mood without forcing your imagination out of the driver’s seat. I can’t tell if I’m watching a book or reading a movie, and I love it.</p>
+        <p>The more graphic novels I read the more I ask myself how the same storytelling techniques can be used in everyday web design. While there are many techniques to learn from, perhaps the most instructive is the strategic use of the void between panels: the gutter.</p>
+        <h2>What happens in the gutter?</h2>
+        <p>Magic. Graphic novels — okay fine, <em>comics</em> — primarily consist of three things: dialogue, imagery, and the reader’s imagination. That critical third component is empowered by the gutter. The reader uses that space as a catalyst to glue the story together by filling the gap with past experiences of their own. And it all happens by design.</p>
+        <p>Comic creators carefully choose which content goes undefined as a way of enhancing the content that’s actually there. They understand that everyone’s experiences are different, and when the reader is allowed to fill in the gaps it creates an emotional affinity that can only be done through collaboration between the storyteller and their audience.</p>
+        <p>This is different than minimalism on the web, where designers try to avoid overwhelming users with too much content for the sake of increasing retention. But there’s much more addition that can be done through subtraction. It’s not just space between ideas, but a chance to analyze and connect ideas based on what we know. Including a gutter in your design will <mark>give users something to imagine as a way to enhance what they see</mark>.</p>
+        <h2>Applying it to the web</h2>
+        <p>The stories we tell on the web offer the best opportunity to bond with our audience — stories that can deliver more personal messages and resonate with each reader by leaving the right content undefined.</p>
+        <p>So what can be left undefined in web design that will actually add to the experience? There are techniques that already exist that, when used together, can make for a powerful effect. A blurred background image can make someone think not where the image was taken but of a time they experienced a similar sight. An illustration can depict an environment without seeming like a real place, allowing someone to imagine their own. It can even be as simple as breaking up content at the right moments to allow your audience time to reflect as they transition to the next section.</p>
+        <p>When I finish reading a graphic novel I don’t just feel as though I helped tell the story, I feel like an enabler; an accomplice to the actions of the story’s characters. I become attached to the creator’s work, almost as if I were a silent collaborator. It’s a feeling I want those viewing my designs to experience.</p>
+        <p>It may be your message and your design, but it’s their story.<img class="fin" src="/images/fin@2x.png" /></p>
+      </div>
+    </article>
+    <div class="row post-follow">
+      <p>Share this post: bit.ly/1EC9wOK</a></p>
+      <p>You might also like <a href="/blog/how-to-sell-a-vacuum.html">How to Sell a Vacuum</a>, <a href="/blog/designers-and-their-tools.html">Designers and Their Tools</a>, or <a href="/blog/what-the-movies-can-teach-us-about-design.html">What the Movies Can Teach Us About Design</a></p>
     </div>
   </div>
-
-  <div class="container copy">
-    &copy; 2013-2015 Think Like LLC
-  </div>
+  <footer>
+    <a href="/">Think Like</a>
+    <p>© 2013 – <script>document.write(new Date().getFullYear())</script> Think Like LLC</p>
+  </footer>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
