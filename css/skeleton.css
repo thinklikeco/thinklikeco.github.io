@@ -232,11 +232,11 @@ input[type="button"].button-primary:focus {
   -webkit-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 
-  -webkit-transform: scale(1.02);
-  -moz-transform:    scale(1.02);
-  -ms-transform:     scale(1.02);
-  -o-transform:      scale(1.02);
-  transform:         scale(1.02);
+  -webkit-transform: scale(1.025);
+  -moz-transform:    scale(1.025);
+  -ms-transform:     scale(1.025);
+  -o-transform:      scale(1.025);
+  transform:         scale(1.025);
  }
 
 
