@@ -214,10 +214,10 @@ mark {
   text-align: center;
   color: #8D99AE;
   display: block;
-  border: 1px solid #8D99AE;
+  border: 1px solid rgba(141,153,174,0.6);
 }
 
-.info a:hover, #barkly .info a:focus {
+.info a:hover, .info a:focus {
   color: #FFF;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 
