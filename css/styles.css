@@ -309,13 +309,12 @@ mark {
 }
 
 #moonlite {
-  background: url(/images/constellation.png) left 10% top 20px no-repeat, url(/images/trees.png) left 10% bottom no-repeat, #444B6E;
-  background-size: 50%;
+  background-color: #525174;
 }
 
 #moonlite .info a:hover, #moonlite .info a:focus {
-  background-color: #444B6E;
-  border: 1px solid #444B6E;
+  background-color: #525174;
+  border: 1px solid #525174;
 }
 
 
