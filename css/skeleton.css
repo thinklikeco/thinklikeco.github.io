@@ -190,6 +190,7 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
+  border-radius: 3px;
 
   -moz-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);

@@ -105,18 +105,24 @@ mark {
   margin: -0.5em 0 1em;
 }
 
-.contact {
+.services {
   max-width: 32em;
-  margin: 0 auto 2em;
+  margin: 0 auto 1em;
   border-top: 1px solid #EDF2F4;
 }
 
-.contact h5 {
+.services h5 {
   margin-top: 2em;
 }
 
-.contact ul {
+.services ul {
   list-style: none;
+  font-size: 16px;
+}
+
+.contact {
+  max-width: 32em;
+  margin: 0 auto 1em;
 }
 
 .contact a {
@@ -206,6 +212,7 @@ mark {
   color: #8D99AE;
   display: block;
   border: 1px solid rgba(141,153,174,0.6);
+  border-radius: 3px;
 }
 
 .info a:hover, .info a:focus {
