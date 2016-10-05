@@ -120,6 +120,10 @@ mark {
   font-size: 16px;
 }
 
+.services p {
+  font-size: 16px;
+}
+
 .contact {
   max-width: 32em;
   margin: 0 auto 1em;
