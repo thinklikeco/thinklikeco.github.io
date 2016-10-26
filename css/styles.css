@@ -2,8 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  background: url(/images/body-bg@2x.png) top repeat-x;
-  background-size: 10px 10px;
+  border: 10px solid #F9F8F8;
 }
 
 header {
@@ -70,8 +69,7 @@ footer {
   font-size: 15px;
   text-align: center;
   color: #8D99AE;
-  border-top: 1px solid #EDF2F4;
-  background-color: #F9F9F9;
+  background-color: #F9F8F8;
 }
 
 img {
