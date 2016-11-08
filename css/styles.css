@@ -103,25 +103,6 @@ mark {
   margin: -0.5em 0 1em;
 }
 
-.services {
-  max-width: 32em;
-  margin: 0 auto 1em;
-  border-top: 1px solid #EDF2F4;
-}
-
-.services h5 {
-  margin-top: 2em;
-}
-
-.services ul {
-  list-style: none;
-  font-size: 16px;
-}
-
-.services p {
-  font-size: 16px;
-}
-
 .contact {
   max-width: 32em;
   margin: 0 auto 1em;
