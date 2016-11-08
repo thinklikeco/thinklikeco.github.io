@@ -158,11 +158,11 @@ mark {
   padding: 2em;
   padding-bottom: 99999px;
   margin-bottom: -99999px;
-  background-color: #EDF2F4;
+  background-color: #F9F8F8;
 
-  -moz-box-shadow: 1px 0 0 #EDF2F4;
-  -webkit-box-shadow: 1px 0 0 #EDF2F4;
-  box-shadow: 1px 0 0 #EDF2F4;
+  -moz-box-shadow: 1px 0 0 #F9F8F8;
+  -webkit-box-shadow: 1px 0 0 #F9F8F8;
+  box-shadow: 1px 0 0 #F9F8F8;
 }
 
 @media (max-width: 400px) {
@@ -170,11 +170,11 @@ mark {
     padding: 1em;
     padding-bottom: 99999px;
     margin-bottom: -99999px;
-    background-color: #EDF2F4;
+    background-color: #F9F8F8;
 
-    -moz-box-shadow: 1px 0 0 #EDF2F4;
-    -webkit-box-shadow: 1px 0 0 #EDF2F4;
-    box-shadow: 1px 0 0 #EDF2F4;
+    -moz-box-shadow: 1px 0 0 #F9F8F8;
+    -webkit-box-shadow: 1px 0 0 #F9F8F8;
+    box-shadow: 1px 0 0 #F9F8F8;
   }
 }
 
