@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-home</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-home" transform="translate(0.000000, 1.000000)">
+            <polyline id="Path" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="15.6363636 5.81818182 15.6363636 16 1.09090909 16 1.09090909 5.81818182"></polyline>
+            <polyline id="Path" stroke="#000000" stroke-linecap="round" points="6.18181818 16 6.18181818 9.09090909 10.5454545 9.09090909 10.5454545 16"></polyline>
+            <polygon id="Path" fill="#000000" fill-rule="nonzero" points="12 1.45454545 12 2.55127273 12.7272727 3.30690909 12.7272727 2.18181818 13.4545455 2.18181818 13.4545455 4.07381818 14.1818182 4.824 14.1818182 1.45454545"></polygon>
+            <polyline id="Path" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="0 6.54545455 8.36363636 0.0192727273 16.7272727 6.54545455"></polyline>
+        </g>
+    </g>
+</svg>
