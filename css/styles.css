@@ -178,7 +178,7 @@ p {
   background: black;
   box-shadow: 2px 1px 0 2px #C5C3C6, 6px 20px 40px rgba(0,0,0,0.2);
   transform: perspective(1000px) rotateY(-15deg) rotateX(4deg) rotateZ(4deg);
-  animation: fadeIn 0.5s ease-in-out 0.4s 1 forwards;
+  animation: fadeIn 0.5s ease-in-out 1s 1 forwards;
   opacity: 0;
   transition: all 0.3s;
 }
