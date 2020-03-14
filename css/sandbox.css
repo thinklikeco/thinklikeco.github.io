@@ -1,0 +1,9 @@
+body {
+  display: grid;
+  justify-items: center;
+}
+
+#bm {
+  width: 400px;
+  height: 400px;
+}
