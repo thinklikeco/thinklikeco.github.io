@@ -1,124 +1,49 @@
-<!-- Made with Flow -->
 <!DOCTYPE html>
+
 <html>
-<head>
-    <title>LifeStarr loading animation</title>
+
+  <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/Loading.css">
-    <link rel="stylesheet" href="./css/driver.css">
+
+    <title>LifeStarr loading animation</title>
+    <meta name="description" content="Trying something out.">
+
+    <link rel="canonical" href="https://thinklike.co/sandbox/lifestarr">
 
     <link rel="icon" type="image/png" href="../../images/favicon.png" />
-</head>
-<body>
-    <div class="flow-artboard" style="visibility: hidden;">
-    <div class="flow-artboard" id="Loading">
-        <div class="flow-layer yellow">
-              <svg class="yellow-svg" preserveAspectRatio="none" viewBox="0 0 66.67 8">
-                <title>yellow</title>
-                <desc>Made with Flow.</desc>
-                <defs id="yellow-defs">
-                </defs>
-              <path id="yellow-path" vector-effect="non-scaling-stroke" d="M0,4c-0,-2.194,1.806,-4,4,-4 0,0,58.67,0,58.67,0 2.194,0,4,1.806,4,4 0,0,0,0,0,0 0,2.194,-1.806,4,-4,4 0,0,-58.67,0,-58.67,0 -2.194,0,-4,-1.806,-4,-4 0,0,0,0,0,0 0,0,0,0,0,0zM0,4">
-                </path>
-              </svg>
-              <div class="flow-border yellow-border"></div>
-            </div>
-        <div class="flow-layer green">
-              <svg class="green-svg" preserveAspectRatio="none" viewBox="0 0 66.67 8">
-                <title>green</title>
-                <desc>Made with Flow.</desc>
-                <defs id="green-defs">
-                </defs>
-              <path id="green-path" vector-effect="non-scaling-stroke" d="M0,4c-0,-2.194,1.806,-4,4,-4 0,0,58.67,0,58.67,0 2.194,0,4,1.806,4,4 0,0,0,0,0,0 0,2.194,-1.806,4,-4,4 0,0,-58.67,0,-58.67,0 -2.194,0,-4,-1.806,-4,-4 0,0,0,0,0,0 0,0,0,0,0,0zM0,4">
-                </path>
-              </svg>
-              <div class="flow-border green-border"></div>
-            </div>
-        <div class="flow-layer red">
-              <svg class="red-svg" preserveAspectRatio="none" viewBox="0 0 8 66.67">
-                <title>red</title>
-                <desc>Made with Flow.</desc>
-                <defs id="red-defs">
-                </defs>
-              <path id="red-path" vector-effect="non-scaling-stroke" d="M0,4c-0,-2.194,1.806,-4,4,-4 0,0,0,0,0,0 2.194,-0,4,1.806,4,4 0,0,0,0,0,0 0,0,0,58.67,0,58.67 0,2.194,-1.806,4,-4,4 -0,0,0,0,-0,0 0,0,0,0,0,0 -2.194,0,-4,-1.806,-4,-4 0,0,0,0,0,0 0,0,0,-58.67,0,-58.67zM0,4">
-                </path>
-              </svg>
-              <div class="flow-border red-border"></div>
-            </div>
-        <div class="flow-layer purple">
-              <svg class="purple-svg" preserveAspectRatio="none" viewBox="0 0 66.67 8">
-                <title>purple</title>
-                <desc>Made with Flow.</desc>
-                <defs id="purple-defs">
-                </defs>
-              <path id="purple-path" vector-effect="non-scaling-stroke" d="M0,4c-0,-2.194,1.806,-4,4,-4 0,0,58.67,0,58.67,0 2.194,0,4,1.806,4,4 0,0,0,0,0,0 0,2.194,-1.806,4,-4,4 0,0,-58.67,0,-58.67,0 -2.194,0,-4,-1.806,-4,-4 0,0,0,0,0,0 0,0,0,0,0,0zM0,4">
-                </path>
-              </svg>
-              <div class="flow-border purple-border"></div>
-            </div>
-        <div class="flow-layer star">
-              <svg class="star-svg" preserveAspectRatio="none" viewBox="0 0 22.05 20.62">
-                <title>star</title>
-                <desc>Made with Flow.</desc>
-                <defs id="star-defs">
-                </defs>
-              <path id="star-path" vector-effect="non-scaling-stroke" d="M5.057,2.246c0,0,4.621,2.667,4.621,2.667 0,0,3.07,-4.914,3.07,-4.914 0,0,1.288,5.58,1.288,5.58 0,0,5.372,-1.141,5.372,-1.141 0,0,-2.799,4.478,-2.799,4.478 0,0,5.44,3.14,5.44,3.14 0,0,-6.213,1.32,-6.213,1.32 0,0,1.155,5,1.155,5 0,0,-4.623,-2.669,-4.623,-2.669 0,0,-3.071,4.912,-3.071,4.912 0,0,-1.288,-5.579,-1.288,-5.579 0,0,-5.373,1.141,-5.373,1.141 0,0,2.799,-4.479,2.799,-4.479 0,0,-5.437,-3.139,-5.437,-3.139 0,0,6.211,-1.321,6.211,-1.321 0,0,-1.153,-4.998,-1.153,-4.998zM5.057,2.246">
-                </path>
-              </svg>
-              <div class="flow-border star-border"></div>
-            </div>
-        </div>
-</div>
-    <script src="./FlowCommon/web-animations.min.js"></script>
-    <script src="./FlowCommon/Animation.js"></script>
-    <script src="./FlowCommon/Track.js"></script>
-    <script src="./js/LoadingTimeline.js"></script>
-    <!-- Animation driver panel, remove if desired -->
-    <div class="playback">
-        <div class="slider">
-            <input type="range" min="0" max="1" step="0.001" value="0.0" id="slider-loading" />
-        </div>
-        <div class="controls">
-            <div class="playPauseLoop">
-                <div class="playPauseContainer loop">
-                    <input type='checkbox' id="loopButton-loading"><label for="loopButton-loading" class="loopLabel" id="loopLabel" />
-                </div>
-                <div class="playPauseContainer">
-                    <input type='checkbox' id="playPauseButton-loading"><label for="playPauseButton-loading" class="playPauseLabel" id="playPauseLabel" />
-                </div>
-                <div class="playPauseContainer">
-                    <div class="time" id="timeLabel-loading">0 s</div>
-                </div>
-            </div>
-        </div>
+
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/sanitize.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.3/lottie.min.js"
+    integrity="sha256-lZIvAx83WLHALrd5UIfVRAkDgVmAIxUt8JqPhNZIs4Q="
+    crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body style="display:grid; justify-items:center; background: #F8FAFE;">
+
+    <div style="margin-top:100px; border-radius:12px; font-family: 'Nunito', sans-serif; font-size:14px; color: #8499C2; display:grid; justify-items:center;">
+      <div id="lottie_container" style="width: 50px; height:50px; margin-bottom: 10px;"></div>
+      Loading projects...
     </div>
-    <div id="timer-loading"></div>
-    <script src="./FlowCommon/player.js"></script>
-    <script src="./js/driver.js"></script>
-    <script type="text/javascript">
-    let loadingTimer = document.getElementById('timer-loading')
-    let loadingResourcesPath = "."
-    let loading = new LoadingTimeline(document, loadingResourcesPath)
-        document.driverLoading = new Driver(loading, 'loopButton-loading', 'playPauseButton-loading', 'slider-loading', 'timeLabel-loading', loadingTimer)
-        document.driverLoading.pause()
-        document.driverLoading.currentTime = 0
-        document.addEventListener('keyup', function (event) {
-            if (event.defaultPrevented) {
-                return;
-            }
 
-            var key = event.key || event.keyCode;
-
-            if (key === 'Space' || key === " " || key === 32) {
-                let button = document.driverLoading.playPauseButton
-                button.checked = !button.checked
-                document.driverLoading.togglePlayback()
-            }
-        });
+    <script src="Loading.js"></script>
+    <script>
+      let element = document.getElementById("lottie_container");
+      lottie.loadAnimation({
+        container: element, // the dom element that will contain the animation
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: lottieAnimationData // the path to the animation json
+      });
     </script>
 
-    <!-- Animation driver panel end -->
+  </body>
 
-</body>
 </html>
