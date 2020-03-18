@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Friday animation</title>
+    <meta name="description" content="Testing grounds.">
+
+    <link rel="canonical" href="https://thinklike.co/sandbox/friday">
+
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/sanitize.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.3/lottie.min.js"
+    integrity="sha256-lZIvAx83WLHALrd5UIfVRAkDgVmAIxUt8JqPhNZIs4Q="
+    crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body style="display:grid; justify-items:center; background: #FBFBFD;">
+
+    <div style="margin-top:100px; padding:20px 30px; background:white; border-radius:12px; font-family: 'DM Sans', sans-serif; font-size:14px; color: #5972A3; display:grid; justify-items:center; border: 1px solid #DCE4F3; box-shadow: 0 1px 3px rgba(0,0,0,0.08);">
+      <div id="lottie_container" style="width: 50px; height:50px; margin-bottom: 5px;"></div>
+      Loading...
+    </div>
+
+    <script src="Loading.js"></script>
+    <script>
+      let element = document.getElementById("lottie_container");
+      lottie.loadAnimation({
+        container: element, // the dom element that will contain the animation
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: lottieAnimationData // the path to the animation json
+      });
+    </script>
+
+  </body>
+
+</html>
