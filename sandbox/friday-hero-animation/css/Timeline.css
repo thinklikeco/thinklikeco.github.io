@@ -1,0 +1,1698 @@
+@font-face {
+    font-family: "AppleColorEmoji";
+    src: url("../fonts/AppleColorEmoji.ttc");
+}
+@font-face {
+    font-family: "DMSans-Bold";
+    src: url("../fonts/DMSans-Bold.ttf");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf");
+}
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+.flow-layer {
+    position: absolute;
+    overflow: visible;
+    box-sizing: border-box;
+    border-width: 0px;
+}
+
+.flow-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 0px;
+}
+
+.flow-border {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0px;
+}
+
+#Timeline.flow-artboard {
+    width: 560px;
+    height: 380px;
+    overflow: visible;
+    position: relative;
+    padding: 0px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    visibility: visible;
+    pointer-events: none;
+}
+
+
+#Timeline .group_2 {
+    width: 200px;
+    height: 200px;
+    left: 110px;
+    top: 110px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .red {
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .red-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FF8359;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .bitmap {
+    width: 177.92px;
+    height: 200px;
+    left: 100.96px;
+    top: 100px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+#Timeline .manager_bill {
+    width: 180px;
+    height: 16px;
+    left: 100px;
+    top: 358px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 12px;
+    text-anchor: middle;
+    inline-size: 180;
+    text-align: center;
+    color: #5972A3;
+    line-height: normal;
+}
+
+
+#Timeline .purple {
+    width: 80px;
+    height: 80px;
+    left: 100px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-purple-mask);
+    -webkit-clip-path: path("M0,80c0,0,0.011,-1.31,0.011,-1.31 0.686,-42.707,34.836,-77.282,77.375,-78.648 0,0,1.292,-0.031,1.292,-0.031 0,0,1.323,-0.011,1.323,-0.011 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0.011,-1.31,0.011,-1.31 0,0,-0.011,1.31,-0.011,1.31zM0,80");}
+
+#Timeline .mask_1 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .purple_1 {
+    width: 80px;
+    height: 1px;
+    left: 40px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .purple_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #534AB5;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+
+#Timeline .green {
+    width: 80px;
+    height: 80px;
+    left: 280px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-green-mask);
+    -webkit-clip-path: path("M0,80c0,0,0.011,-1.31,0.011,-1.31 0.686,-42.707,34.836,-77.282,77.375,-78.648 0,0,1.292,-0.031,1.292,-0.031 0,0,1.323,-0.011,1.323,-0.011 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0.011,-1.31,0.011,-1.31 0,0,-0.011,1.31,-0.011,1.31zM0,80");}
+
+#Timeline .mask_2 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .purple_2 {
+    width: 80px;
+    height: 1px;
+    left: 40px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .purple_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #4ECDC4;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+
+#Timeline .yellow {
+    width: 80px;
+    height: 80px;
+    left: 460px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-yellow-mask);
+    -webkit-clip-path: path("M0,80c0,0,0.011,-1.31,0.011,-1.31 0.686,-42.707,34.836,-77.282,77.375,-78.648 0,0,1.292,-0.031,1.292,-0.031 0,0,1.323,-0.011,1.323,-0.011 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0.011,-1.31,0.011,-1.31 0,0,-0.011,1.31,-0.011,1.31zM0,80");}
+
+#Timeline .mask_3 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_3-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .purple_3 {
+    width: 80px;
+    height: 1px;
+    left: 40px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .purple_3-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFB659;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+
+#Timeline .bill {
+    width: 80px;
+    height: 80px;
+    left: 100px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-bill-mask);
+    -webkit-clip-path: path("M0,0c0,0,80,0,80,0 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0,-80,0,-80zM0,0");}
+
+#Timeline .mask_4 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_4-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .bitmap_1 {
+    width: 169.91px;
+    height: 200px;
+    left: 2.96px;
+    top: 106px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_1.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+#Timeline .executive_carol {
+    width: 180px;
+    height: 16px;
+    left: 280px;
+    top: 358px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 12px;
+    text-anchor: middle;
+    inline-size: 180;
+    text-align: center;
+    color: #5972A3;
+    line-height: normal;
+}
+
+
+#Timeline .teammate_alice {
+    width: 180px;
+    height: 16px;
+    left: 460px;
+    top: 358px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 12px;
+    text-anchor: middle;
+    inline-size: 180;
+    text-align: center;
+    color: #5972A3;
+    line-height: normal;
+}
+
+
+#Timeline .alice {
+    width: 80px;
+    height: 80px;
+    left: 460px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-alice-mask);
+    -webkit-clip-path: path("M0,0c0,0,80,0,80,0 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0,-80,0,-80zM0,0");}
+
+#Timeline .mask_5 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_5-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .bitmap_2 {
+    width: 105.75px;
+    height: 130px;
+    left: 47.87px;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_2.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+#Timeline .bill_check {
+    width: 30px;
+    height: 30px;
+    left: 140px;
+    top: 250px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval {
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .oval-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .icons8_checkmark {
+    width: 11px;
+    height: 8px;
+    left: 14.5px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path {
+    width: 10.91px;
+    height: 8px;
+    left: 5.45px;
+    top: 4px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #4ECDC4;
+    fill: #00000000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+#Timeline .carol {
+    width: 80px;
+    height: 80px;
+    left: 280px;
+    top: 290px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-carol-mask);
+    -webkit-clip-path: path("M0,0c0,0,80,0,80,0 0,0,0,80,0,80 0,0,-80,0,-80,0 0,0,0,-80,0,-80zM0,0");}
+
+#Timeline .mask_6 {
+    width: 80px;
+    height: 80px;
+    left: 40px;
+    top: 40px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_6-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .bitmap_3 {
+    width: 143.88px;
+    height: 160px;
+    left: 65.94px;
+    top: 85px;
+    transform: translate(-50%, -50%) rotate(0deg) scale(-1, 1);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_6.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+
+#Timeline .carol_check {
+    width: 30px;
+    height: 30px;
+    left: 320px;
+    top: 250px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_1 {
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .oval_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .icons8_checkmark_1 {
+    width: 11px;
+    height: 8px;
+    left: 14.5px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_1 {
+    width: 10.91px;
+    height: 8px;
+    left: 5.45px;
+    top: 4px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #4ECDC4;
+    fill: #00000000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+#Timeline .alice_check {
+    width: 30px;
+    height: 30px;
+    left: 500px;
+    top: 250px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_2 {
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .oval_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .icons8_checkmark_2 {
+    width: 11px;
+    height: 8px;
+    left: 14.5px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_2 {
+    width: 10.91px;
+    height: 8px;
+    left: 5.45px;
+    top: 4px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #4ECDC4;
+    fill: #00000000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+#Timeline .planner {
+    width: 360px;
+    height: 160px;
+    left: 355px;
+    top: 125px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.4;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_13 {
+    width: 360px;
+    height: 160px;
+    left: 180px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .rectangle_13-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #DCE4F3;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .icons8_partly_cloudy_day {
+    width: 16px;
+    height: 13px;
+    left: 243px;
+    top: 28.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_3 {
+    width: 5.38px;
+    height: 5.38px;
+    left: 5.19px;
+    top: 5.19px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_3-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #FFB659;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+}
+#Timeline .path_4 {
+    width: 5.59px;
+    height: 5.52px;
+    left: 5.87px;
+    top: 5.89px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_4-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #B3C2DF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .shape {
+    width: 8.25px;
+    height: 3.38px;
+    left: 5.5px;
+    top: 1.69px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .shape-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #FFB659;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+}
+#Timeline .path_5 {
+    width: 16px;
+    height: 10.23px;
+    left: 8px;
+    top: 7.89px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_5-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #B3C2DF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .path_6 {
+    width: 2.5px;
+    height: 1px;
+    left: 1.25px;
+    top: 5.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_6-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #FFB659;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+}
+#Timeline .partly_cloudy {
+    width: 81px;
+    height: 17px;
+    left: 299.5px;
+    top: 28.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 13px;
+    text-anchor: middle;
+    inline-size: 81;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .icons8_zoom {
+    width: 20px;
+    height: 20px;
+    left: 296px;
+    top: 102px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_3 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_3-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #2196F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .path_7 {
+    width: 9px;
+    height: 7px;
+    left: 8px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_7-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .path_8 {
+    width: 3px;
+    height: 7px;
+    left: 15px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .path_8-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .join {
+    width: 28px;
+    height: 18px;
+    left: 326px;
+    top: 101px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 28;
+    text-align: left;
+    color: #2196F3;
+    line-height: normal;
+}
+
+#Timeline .icon_routine {
+    width: 20px;
+    height: 18px;
+    left: 30px;
+    top: 70px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .shape_1 {
+    width: 18.67px;
+    height: 17.12px;
+    left: 10px;
+    top: 9.22px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .shape_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #534AB5;
+    fill: #00000000;
+    stroke-miterlimit: 10;
+}
+#Timeline .gather_feedback_from {
+    width: 216px;
+    height: 24px;
+    left: 158px;
+    top: 133px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 216;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline ._daily_standup {
+    width: 114px;
+    height: 24px;
+    left: 169px;
+    top: 69px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 114;
+    text-align: left;
+    color: #5972A3;
+    line-height: normal;
+}
+
+#Timeline .line_104 {
+    width: 94px;
+    height: 94px;
+    left: 180px;
+    top: 71px;
+    transform: translate(-50%, -50%) rotate(90deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .line_104-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #5972A3;
+    fill: #0000FF;
+    stroke-miterlimit: 10;
+}
+#Timeline .__00am {
+    width: 52px;
+    height: 24px;
+    left: 76px;
+    top: 72px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 52;
+    text-align: left;
+    color: #5972A3;
+    line-height: normal;
+}
+
+#Timeline .oval_4 {
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 130px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_4-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #B3C2DF;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .group {
+    width: 184px;
+    height: 24px;
+    left: 112px;
+    top: 100px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline ._1_30pm {
+    width: 51px;
+    height: 24px;
+    left: 56px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 51;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .design_review {
+    width: 92px;
+    height: 24px;
+    left: 138px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 92;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .bitmap_4 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 12px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_3.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+#Timeline .today {
+    width: 52px;
+    height: 27px;
+    left: 46px;
+    top: 28.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 52;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+
+#Timeline .kudos {
+    width: 360px;
+    height: 160px;
+    left: 360px;
+    top: 120px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.4;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_14 {
+    width: 360px;
+    height: 160px;
+    left: 180px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .rectangle_14-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #DCE4F3;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .alice_1 {
+    width: 64px;
+    height: 20px;
+    left: 82px;
+    top: 95px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle {
+    width: 64px;
+    height: 20px;
+    left: 32px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #F2F1F9;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .alice_2 {
+    width: 26px;
+    height: 14px;
+    left: 39px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 11px;
+    text-anchor: middle;
+    inline-size: 26;
+    text-align: left;
+    color: #534AB5;
+    line-height: normal;
+}
+
+#Timeline .bitmap_5 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    clip-path: url(#timeline-bitmap-mask);
+    -webkit-clip-path: path("M10,20c5.523,0,10,-4.477,10,-10 0,-5.523,-4.477,-10,-10,-10 -5.523,0,-10,4.477,-10,10 0,5.523,4.477,10,10,10zM10,20");}
+
+#Timeline .mask_7 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .mask_7-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #FFFFFF;
+    fill: #FFB659;
+    stroke-miterlimit: 10;
+}
+#Timeline .bitmap_6 {
+    width: 24.4px;
+    height: 30px;
+    left: 10.2px;
+    top: 17px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_2.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+#Timeline .thanks_for_providing {
+    width: 310px;
+    height: 21px;
+    left: 205px;
+    top: 125.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 310;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .is_there_anyone_you_ {
+    width: 320px;
+    height: 27px;
+    left: 180px;
+    top: 58.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 320;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline ._ {
+    width: 320px;
+    height: 27px;
+    left: 180px;
+    top: 23.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "AppleColorEmoji";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 320;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+
+#Timeline .goal {
+    width: 360px;
+    height: 160px;
+    left: 365px;
+    top: 115px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.6;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_15 {
+    width: 360px;
+    height: 160px;
+    left: 180px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .rectangle_15-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #DCE4F3;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .behind {
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 125px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.5;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_1 {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_1-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .behind_1 {
+    width: 44px;
+    height: 17px;
+    left: 50px;
+    top: 14.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Bold";
+    font-size: 13px;
+    text-anchor: middle;
+    inline-size: 44;
+    text-align: left;
+    color: #5972A3;
+    line-height: normal;
+}
+
+#Timeline .ahead {
+    width: 100px;
+    height: 30px;
+    left: 290px;
+    top: 125px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.5;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_2 {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .ahead_1 {
+    width: 41px;
+    height: 17px;
+    left: 50.5px;
+    top: 14.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Bold";
+    font-size: 13px;
+    text-anchor: middle;
+    inline-size: 41;
+    text-align: left;
+    color: #5972A3;
+    line-height: normal;
+}
+
+#Timeline .ahead_done {
+    width: 100px;
+    height: 30px;
+    left: 290px;
+    top: 125px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_3 {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000033);
+    overflow: visible;
+}
+
+#Timeline .rectangle_3-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #0000001F;
+    fill: #4ECDC4;
+    stroke-miterlimit: 10;
+}
+#Timeline .ahead_2 {
+    width: 41px;
+    height: 17px;
+    left: 50.5px;
+    top: 14.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000033);
+    overflow: visible;
+    font-family: "DMSans-Bold";
+    font-size: 13px;
+    text-anchor: middle;
+    inline-size: 41;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: normal;
+}
+
+#Timeline .how_are_you_progress {
+    width: 320px;
+    height: 54px;
+    left: 180px;
+    top: 72px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 320;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .__1 {
+    width: 320px;
+    height: 27px;
+    left: 180px;
+    top: 23.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "AppleColorEmoji";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 320;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .on_track {
+    width: 100px;
+    height: 30px;
+    left: 180px;
+    top: 125px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0.5;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_4 {
+    width: 100px;
+    height: 30px;
+    left: 50px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_4-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #DCE4F3;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .on_track_1 {
+    width: 55px;
+    height: 17px;
+    left: 50.5px;
+    top: 14.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Bold";
+    font-size: 13px;
+    text-anchor: middle;
+    inline-size: 55;
+    text-align: left;
+    color: #5972A3;
+    line-height: normal;
+}
+
+
+#Timeline .routine {
+    width: 360px;
+    height: 160px;
+    left: 370px;
+    top: 110px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .rectangle_16 {
+    width: 360px;
+    height: 160px;
+    left: 180px;
+    top: 80px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    filter: drop-shadow(0px 1px 3px #00000014);
+    overflow: visible;
+}
+
+#Timeline .rectangle_16-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #DCE4F3;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .friday_task {
+    width: 246px;
+    height: 24px;
+    left: 173px;
+    top: 97px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .gather_feedback_from_1 {
+    width: 216px;
+    height: 24px;
+    left: 138px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 216;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .oval_5 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 12px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_5-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #B3C2DF;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .trello_task {
+    width: 215px;
+    height: 24px;
+    left: 157.5px;
+    top: 127px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .new_onboarding_desig {
+    width: 159px;
+    height: 24px;
+    left: 135.5px;
+    top: 15px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 159;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .icons8_trello {
+    width: 18px;
+    height: 18px;
+    left: 39px;
+    top: 12px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .shape_2 {
+    width: 18px;
+    height: 18px;
+    left: 9px;
+    top: 9px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .shape_2-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #0079C5;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+}
+#Timeline .oval_6 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 12px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline .oval_6-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    stroke: #B3C2DF;
+    fill: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+#Timeline .meeting {
+    width: 183px;
+    height: 24px;
+    left: 141.5px;
+    top: 67px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 0;
+    background-color: #00000000;
+    overflow: visible;
+}
+
+#Timeline ._1_30pm_1 {
+    width: 51px;
+    height: 24px;
+    left: 55.5px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Regular";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 51;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .design_review_1 {
+    width: 92px;
+    height: 24px;
+    left: 137px;
+    top: 14px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 14px;
+    text-anchor: middle;
+    inline-size: 92;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+#Timeline .bitmap_7 {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 12px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    background-image: url(../img/Bitmap_3.png);
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+#Timeline .what_are_you_working {
+    width: 320px;
+    height: 27px;
+    left: 180px;
+    top: 28.5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #00000000;
+    overflow: visible;
+    font-family: "DMSans-Medium";
+    font-size: 18px;
+    text-anchor: middle;
+    inline-size: 320;
+    text-align: left;
+    color: #1E2630;
+    line-height: normal;
+}
+
+
+
+path {
+    fill-rule: evenodd; 
+}
+
+svg {
+   overflow: visible;
+}
